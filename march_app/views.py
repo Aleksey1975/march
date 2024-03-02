@@ -10,4 +10,4 @@ from django.template.defaultfilters import slugify
 
 
 def index(request):
-    return HttpResponse("March_app")
+    return render(request, 'march_app/index.html')
